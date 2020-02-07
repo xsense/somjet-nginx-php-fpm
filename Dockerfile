@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.8.2
+FROM richarvey/nginx-php-fpm:1.9.0
 
 RUN sed -i \
     -e "s/git clone /&--recurse-submodules /g" /start.sh
