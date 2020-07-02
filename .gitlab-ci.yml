@@ -1,6 +1,6 @@
 image: docker:latest
-
 variables:
+  DOCKER_HOST: tcp://localhost:2375
   AWS_REGION: ap-southeast-1
   ECR_REPO: 939799150520.dkr.ecr.ap-southeast-1.amazonaws.com
 
